@@ -40,7 +40,7 @@ The source file is a single Excel workbook with three tabs:
 
 The project followed a four-stage structure:
 
-### 1. Data Preparation in Power Query
+### 1. Data Cleaning in Power Query
 The following steps were applied:
 
 - Renamed tables to follow a clear naming convention: `Fact_Sales`, `Dim_Account`, `Dim_Product`
