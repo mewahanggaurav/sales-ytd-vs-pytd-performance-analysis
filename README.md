@@ -12,8 +12,6 @@ This project is an end-to-end business intelligence report built in Microsoft Po
 
 The dataset is sourced from an Excel workbook containing three related tables: a sales fact table, a customer accounts dimension table, and a product hierarchy dimension table. The final output is a dynamic, interactive single-page performance report published to Power BI Service.
 
-This project was completed by following a guided tutorial. The analytical decisions, DAX logic, and documentation are my own work, produced as part of a structured learning path to build a data analyst portfolio.
-
 ---
 
 ## Tools Used
@@ -43,9 +41,6 @@ The source file is a single Excel workbook with three tabs:
 The project followed a four-stage structure:
 
 ### 1. Data Preparation in Power Query
-
-Power Query is the stage where raw data is cleaned before any analysis begins. Think of it like washing vegetables before cooking — you do not want to build a report on dirty data.
-
 The following steps were applied:
 
 - Renamed tables to follow a clear naming convention: `Fact_Sales`, `Dim_Account`, `Dim_Product`
