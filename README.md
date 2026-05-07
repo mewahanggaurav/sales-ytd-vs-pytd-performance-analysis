@@ -56,7 +56,7 @@ After loading the cleaned tables, two additional tables were created directly in
 
 A calendar table was created to cover the full date range of the dataset (1 January 2022 to 31 December 2024).
 
-Think of this like a wall calendar. Your sales table only has dates when a sale actually happened. The calendar table has every single day, whether or not a sale occurred. Without it, months with no sales would simply disappear from your charts instead of showing zero. Connecting your sales data to a complete calendar is what makes reliable time-based analysis possible.
+The sales table only has dates when a sale actually happened. The calendar table has every single day, whether or not a sale occurred. Without it, months with no sales would simply disappear from the charts instead of showing zero. Connecting the sales data to a complete calendar is what makes reliable time-based analysis possible.
 
 ```dax
 Dim_Date = 
