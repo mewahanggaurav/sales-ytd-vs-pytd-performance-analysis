@@ -225,16 +225,6 @@ The following insights are drawn from the 2023 Quantity view of the report:
 
 ---
 
-## How to Use
-
-1. Download `Plant_DTS.xls` and `Plant_Performance_Report.pbix` from this repository
-2. Open the `.pbix` file in Power BI Desktop (free download from Microsoft)
-3. If prompted, update the data source path to point to the location of `Plant_DTS.xls` on your machine
-4. Use the Year slicer to select 2023 or 2024
-5. Use the Value slicer to switch between Sales, Gross Profit, and Quantity across all visuals
-
----
-
 ## Learning Outcomes
 
 Through this project the following skills were developed and applied:
