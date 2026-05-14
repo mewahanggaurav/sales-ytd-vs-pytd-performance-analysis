@@ -20,9 +20,9 @@ Service.
 
 | | |
 |---|---|
-| ![2023 Sales](Images/2023%20Sales.png) | ![2023 Gross Profit](Images/2023%20Gross%20Profit.png) |
-| ![2023 Quantity](Images/2023%20Quantity.png) | ![2024 Sales](Images/2024%20Sales.png) |
-| ![2024 Gross Profit](Images/2024%20Gross%20Profit.png) | ![2024 Quantity](Images/2024%20Quantity.png) |
+| ![2023 Sales](Images/2023_Sales.png) | ![2023_Gross Profit](Images/2023_Gross_Profit.png) |
+| ![2023 Quantity](Images/2023_Quantity.png) | ![2024 Sales](Images/2024_Sales.png) |
+| ![2024 Gross Profit](Images/2024_Gross_Profit.png) | ![2024 Quantity](Images/2024_Quantity.png) |
 
 ---
 
