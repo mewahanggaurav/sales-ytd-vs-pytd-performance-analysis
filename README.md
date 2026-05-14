@@ -1,15 +1,12 @@
 # PlantCo Performance Report | Power BI Portfolio Project
 
----
 ## Report Preview
 
 | | |
 |---|---|
-| ![2023 Sales](Images/2023_Sales.png) | ![2023_Gross Profit](Images/2023_Gross_Profit.png) |
+| ![2023 Sales](Images/2023_Sales.png) | ![2023 Gross Profit](Images/2023_Gross_Profit.png) |
 | ![2023 Quantity](Images/2023_Quantity.png) | ![2024 Sales](Images/2024_Sales.png) |
 | ![2024 Gross Profit](Images/2024_Gross_Profit.png) | ![2024 Quantity](Images/2024_Quantity.png) |
-
----
 
 ## Project Overview
 
@@ -23,8 +20,6 @@ table, a customer accounts dimension table, and a product hierarchy dimension ta
 final output is a dynamic, interactive single-page performance report published to Power BI
 Service.
 
----
-
 ## Tools Used
 
 - Microsoft Power BI Desktop
@@ -32,8 +27,6 @@ Service.
 - DAX (Data Analysis Expressions)
 - Microsoft Excel (source data)
 - Power BI Service (publishing)
-
----
 
 ## Dataset
 
@@ -45,8 +38,6 @@ The source file is a single Excel workbook with three tabs:
 | Accounts | Dimension Table | Customer account details including country, coordinates, and account ID |
 | Plant Hierarchy | Dimension Table | Product catalogue with family, group, name, size, and type |
 
----
-
 ## Project Workflow
 
 ### 1. Data Cleaning in Power Query
@@ -55,8 +46,6 @@ The source file is a single Excel workbook with three tabs:
 - Removed duplicate rows from the unique identifier columns in both dimension tables to ensure data integrity
 - Corrected column names that contained numbering artefacts (e.g. `Latitude 2`, `Country 2`)
 - Confirmed that the `Date_Time` column in the fact table was formatted correctly as a date type
-
----
 
 ### 2. Data Modelling and Virtual Tables
 
@@ -107,8 +96,6 @@ Three relationships were established in the model view:
 - `Dim_Date[Date]` to `Fact_Sales[Date_Time]`
 - `Dim_Account[Account ID]` to `Fact_Sales[Account ID]`
 - `Dim_Product[Product Name]` to `Fact_Sales[Product ID]`
-
----
 
 ### 3. DAX Measures
 
@@ -192,8 +179,6 @@ YTD vs PYTD = [S_YTD] - [S_PYTD]
 Measure-driven titles were created so that chart headings update automatically based on the
 slicer selection and year filter, keeping the report self-explanatory at all times.
 
----
-
 ### 4. Report Design and Visuals
 
 The report uses a custom background image created in PowerPoint and imported as a canvas
@@ -221,9 +206,7 @@ direction immediately.
 - Year slicer (dropdown) to select the year-to-date reference year
 - Value slicer (list) to switch all visuals between Sales, Gross Profit, and Quantity
 
----
-
-## Report Preview
+## Dashboard Breakdown
 
 ### 2023 Performance
 
@@ -237,8 +220,6 @@ direction immediately.
 - The waterfall chart shows June as the strongest month (+$0.23M) but November as the steepest single-month decline (-$0.23M), with December closing at -$0.51M total variance
 - The scatter chart shows most accounts clustered below $50K in sales, with a handful of outliers above $150K revealing a concentration risk in the customer base
 
----
-
 #### Gross Profit — 2023
 
 ![Plant Co. Gross Profit Performance 2023](Images/2023_Gross_Profit.png)
@@ -248,8 +229,6 @@ direction immediately.
 - June and May were the strongest months for gross profit growth (+$0.09M and +$0.07M respectively), while August saw the sharpest single-month drop at -$0.15M
 - The account profitability scatter shows a wide cluster of accounts below the 40% GP reference line, with a smaller group of higher-margin accounts sitting above it but with limited gross profit volume
 
----
-
 #### Quantity — 2023
 
 ![Plant Co. Quantity Performance 2023](Images/2023_Quantity.png)
@@ -258,8 +237,6 @@ direction immediately.
 - China (-9.76K) and France (-9.36K) were the two worst-performing countries by quantity, followed by Sweden (-6.71K) and Greece (-4.73K)
 - May and April were the strongest months for quantity growth (+12K and +5K respectively), while January and March declined (-6K and -4K)
 - The monthly column chart shows March as the peak month at 52.26K units, with July as the lowest at 38K
-
----
 
 ### 2024 Performance
 
@@ -275,8 +252,6 @@ direction immediately.
 - February was the strongest month (+$0.34M) before a sharp reversal in March (-$0.15M) and April (-$0.24M)
 - The line chart shows PYTD (red line) tracking above YTD from February onward, indicating the gap widened through the available months
 
----
-
 #### Gross Profit — 2024
 
 ![Plant Co. Gross Profit Performance 2024](Images/2024_Gross_Profit.png)
@@ -285,8 +260,6 @@ direction immediately.
 - Canada (-$41.59K) and Germany (-$25.51K) led the bottom 10 underperforming countries, joined by Japan, Croatia, Hungary, and Colombia
 - February was the only growth month at +$117K, with March and April both declining sharply (-$96K and -$90K respectively)
 - The scatter chart shows a notably wider spread of GP% compared to 2023, with several accounts achieving above 60% margin — suggesting a shift in the product or customer mix
-
----
 
 #### Quantity — 2024
 
@@ -297,15 +270,11 @@ direction immediately.
 - February showed the only positive month at +8.2K units, with March (-11.6K) and April (-9.4K) both declining
 - The PYTD line on the column chart tracks consistently above YTD values from February onward, confirming the downward trend across the available 2024 months
 
----
-
 ## Key Insights Across Both Years
 
 - Sales and Gross Profit declined year-on-year in both 2023 and 2024, while Quantity grew slightly in 2023 before reversing in 2024 — suggesting pricing or mix pressure rather than pure volume loss
 - China was the dominant drag on all three metrics in 2023; by 2024 the underperforming markets shifted to Canada, Colombia, and Croatia, pointing to a geographic spread of risk
 - GP% remained remarkably stable at approximately 39.15–39.62% across both years and all three metrics, indicating consistent cost structure despite declining top-line performance
 - The second half of available months consistently showed the largest declines, making Q3 and Q4 the highest-priority area for investigation
-
----
 
 ## Repository Structure
