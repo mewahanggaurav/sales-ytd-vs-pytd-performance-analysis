@@ -1,6 +1,15 @@
 # PlantCo Performance Report | Power BI Portfolio Project
 
 ---
+## Report Preview
+
+| | |
+|---|---|
+| ![2023 Sales](Images/2023_Sales.png) | ![2023_Gross Profit](Images/2023_Gross_Profit.png) |
+| ![2023 Quantity](Images/2023_Quantity.png) | ![2024 Sales](Images/2024_Sales.png) |
+| ![2024 Gross Profit](Images/2024_Gross_Profit.png) | ![2024 Quantity](Images/2024_Quantity.png) |
+
+---
 
 ## Project Overview
 
@@ -13,16 +22,6 @@ The dataset is sourced from an Excel workbook containing three related tables: a
 table, a customer accounts dimension table, and a product hierarchy dimension table. The
 final output is a dynamic, interactive single-page performance report published to Power BI
 Service.
-
----
-
-## Report Preview
-
-| | |
-|---|---|
-| ![2023 Sales](Images/2023_Sales.png) | ![2023_Gross Profit](Images/2023_Gross_Profit.png) |
-| ![2023 Quantity](Images/2023_Quantity.png) | ![2024 Sales](Images/2024_Sales.png) |
-| ![2024 Gross Profit](Images/2024_Gross_Profit.png) | ![2024 Quantity](Images/2024_Quantity.png) |
 
 ---
 
