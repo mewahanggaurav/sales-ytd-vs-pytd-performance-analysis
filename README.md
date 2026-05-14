@@ -16,6 +16,16 @@ Service.
 
 ---
 
+## Report Preview
+
+| | |
+|---|---|
+| ![2023 Sales](Images/2023%20Sales.png) | ![2023 Gross Profit](Images/2023%20Gross%20Profit.png) |
+| ![2023 Quantity](Images/2023%20Quantity.png) | ![2024 Sales](Images/2024%20Sales.png) |
+| ![2024 Gross Profit](Images/2024%20Gross%20Profit.png) | ![2024 Quantity](Images/2024%20Quantity.png) |
+
+---
+
 ## Tools Used
 
 - Microsoft Power BI Desktop
